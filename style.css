@@ -1,0 +1,134 @@
+/*
+* {
+margin:0;
+padding:0;
+border:0;
+background:transparent;
+outline:none;
+text-decoration:none;
+outline:none;
+font-family:inherit;
+box-sizing:border-box;
+}
+
+ol, ul, li {
+list-style:none;
+display:block;
+}
+
+table {
+border-collapse: collapse;
+border-spacing:0;
+}
+
+a, img {
+border: none;
+}
+
+button, a {
+cursor: pointer;
+color: inherit;
+}
+
+textarea {
+resize: none;
+}
+
+button, input, textarea, select {
+appearance: none !important;
+-webkit-appearance: none !important;
+border-radius: 0;
+}
+*/
+#root {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 25px auto;
+  border: 2px solid #b97177;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f5f4;
+  color: #b97177;
+}
+
+#form {
+  max-width: 500px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f5f4;
+  color: #b97177;
+}
+
+#root #form div, button {
+  margin: 15px;
+  font-size: 20px;
+  color: #b97177;
+}
+
+#form div:first-child {
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  color: #b97177;
+  outline: none;
+  background-color: #f1e6cb;
+}
+
+input:focus {
+  background-color: #f9f5f4;
+}
+
+select {
+  font-size: 16px;
+  color: #b97177;
+  outline: none;
+  background-color: #f1e6cb;
+}
+
+button {
+  padding: 8px 10px;
+  border-color: #b97177;
+  border-radius: 5%;
+  margin-bottom: 30px;
+  background-color: #f1e6cb;
+}
+
+#inputValueContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  border-left: 2px solid #b97177;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#inputValueContent img {
+  margin: 5px auto;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=style.css.map */
